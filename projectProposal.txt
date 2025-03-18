@@ -12,4 +12,25 @@
     - 페이징 처리 및 검색 기능
     - 좋아요 및 조회수 기능
 
+[시스템 아키텍처]
+1. 개발 환경
+    - 백엔드 : Spring Boot, Spring MVC, JPA(Hibernate)
+    - 프론트엔드 : Thymeleaf, HTML, CSS, JavaScript
+    - 데이터베이스 : H2 Database(개발 환경), MySQL(운영 환경)
+    - 빌드 도구 : Gradle
+    - 버전 관리 : Git & Github
+
+2. 시스템 구조
+    - MVC 패턴 기반
+    - Entity, DTO, Repository, Controller, Service 계층 분리
+    - 예외 처리 및 로깅 적용
+
+[기능 상세]
+1. 회원 관리
+    - 이메일, 비밀번호, 닉네임 입력 후 가입
+    - 로그인 : Validation을 이용한 로그인 및 인증
+    - 로그인 후 세션 방식 인증 적용
+
+
+
 
