@@ -1,3 +1,4 @@
 - ERD 작성
 - API 작성
 - service layer 작성
+- gitignore 추가
